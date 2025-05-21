@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "pila.h"
 
+///---prototipados---
 void mensajeDeEjercicios ();
 Pila cargarUnaPila (Pila aCargar);
 Pila deUnaPilaAotra (Pila origen);
