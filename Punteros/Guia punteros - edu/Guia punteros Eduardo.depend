@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1755177488 source:c:\users\ayele\onedrive\desktop\docs facu\progra 1 (2024)\guia punteros eduardo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
+1490112217 source:c:\users\ayele\onedrive\desktop\docs facu\progra 1 (2024)\guia punteros eduardo\pila.c
+	"pila.h"
+
+1490112217 c:\users\ayele\onedrive\desktop\docs facu\progra 1 (2024)\guia punteros eduardo\pila.h
+	<stdio.h>
+	<malloc.h>
+
