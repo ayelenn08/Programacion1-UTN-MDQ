@@ -237,12 +237,11 @@ int buscarLetra (char arreglo[], char aBuscar, int validos)
     int flag =0;
     int i=0;
 
-    while(i<validos)
+    while(i<validos && flag==0)
     {
         if (aBuscar == arreglo[i])
         {
             flag = 1;
-            i++;
         }
         else
         {
