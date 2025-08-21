@@ -104,9 +104,9 @@ int main()
     return 0;
 }
 
-/*1. Hacer una función que reciba como parámetro un arreglo de números enteros y permita que
-el usuario ingrese valores al mismo por teclado. La función debe retornar la cantidad de
-elementos cargados en el arreglo (o pueden utilizar como puntero válidos).  */
+/*1. Hacer una funciÃ³n que reciba como parÃ¡metro un arreglo de nÃºmeros enteros y permita que
+el usuario ingrese valores al mismo por teclado. La funciÃ³n debe retornar la cantidad de
+elementos cargados en el arreglo (o pueden utilizar como puntero vÃ¡lidos).  */
 
 int cargarArreglo (int arreglo[])
 {
@@ -145,8 +145,8 @@ void cargarConPunteros (int array[], int *validos)
 
 }
 
-/*2. Hacer una función que reciba como parámetro un arreglo y la cantidad de elementos (válidos)
-cargados en él y los muestre por pantalla.  */
+/*2. Hacer una funciÃ³n que reciba como parÃ¡metro un arreglo y la cantidad de elementos (vÃ¡lidos)
+cargados en Ã©l y los muestre por pantalla.  */
 
 void mostrarArreglo (int arreglo[], int validos)
 {
@@ -156,8 +156,8 @@ void mostrarArreglo (int arreglo[], int validos)
     }
 }
 
-/*3. Hacer una función que reciba como parámetro un arreglo y la cantidad de elementos (válidos)
-cargados en él y calcule la suma de sus elementos.  */
+/*3. Hacer una funciÃ³n que reciba como parÃ¡metro un arreglo y la cantidad de elementos (vÃ¡lidos)
+cargados en Ã©l y calcule la suma de sus elementos.  */
 
 int sumarValoresDeUnArray (int arreglo[], int validos)
 {
@@ -173,8 +173,8 @@ int sumarValoresDeUnArray (int arreglo[], int validos)
     return suma;
 }
 
-/*4. Hacer una función que reciba como parámetro un arreglo, la cantidad de elementos (válidos)
-cargados en él y una Pila. La función debe copiar los elementos del arreglo en la pila.  */
+/*4. Hacer una funciÃ³n que reciba como parÃ¡metro un arreglo, la cantidad de elementos (vÃ¡lidos)
+cargados en Ã©l y una Pila. La funciÃ³n debe copiar los elementos del arreglo en la pila.  */
 
 void pasarDePilaAarreglo (int array [], int validos, Pila *nuevaPila)
 {
@@ -184,8 +184,8 @@ void pasarDePilaAarreglo (int array [], int validos, Pila *nuevaPila)
     }
 }
 
-/*5. Realizar una función que sume los elementos de un arreglo de números reales (float) de
-dimensión 100. (se recomienda hacer una función para cargar y otra para mostrar para este
+/*5. Realizar una funciÃ³n que sume los elementos de un arreglo de nÃºmeros reales (float) de
+dimensiÃ³n 100. (se recomienda hacer una funciÃ³n para cargar y otra para mostrar para este
 tipo de dato asociado al arreglo)*/
 
 int cargarArregloDecimal (float array[])
@@ -230,7 +230,7 @@ float sumarValoresDecimales (float array[], int validos)
     return rta;
 }
 
-/*6. Realizar una función que indique si un elemento dado se encuentra en un arreglo de
+/*6. Realizar una funciÃ³n que indique si un elemento dado se encuentra en un arreglo de
 caracteres.  */
 int buscarLetra (char arreglo[], char aBuscar, int validos)
 {
@@ -274,12 +274,12 @@ int cargarArregloChar(char arre[], int dimC)
     return validos;
 }
 
-/*7. Realizar una función que inserte un carácter en un arreglo ordenado alfabéticamente,
+/*7. Realizar una funciÃ³n que inserte un carÃ¡cter en un arreglo ordenado alfabÃ©ticamente,
 conservando el orden.  */
 
 int insertarLetra (char array[], char dato, int validos)
 {
-    int ultimo = validos-1; //pociciones.
+    int ultimo = validos-1; //posiciones.
 
 
     while(ultimo>=0 && dato<array[ultimo])
@@ -293,7 +293,7 @@ int insertarLetra (char array[], char dato, int validos)
     return validos+1; ///mis nuevos validos
 }
 
-/*8. Realizar una función que obtenga el máximo carácter de un arreglo dado. */
+/*8. Realizar una funciÃ³n que obtenga el mÃ¡ximo carÃ¡cter de un arreglo dado. */
 char buscarMayor (char B [], int validos2)
 {
     char miMayor= B[0];
@@ -308,7 +308,7 @@ char buscarMayor (char B [], int validos2)
 return miMayor;
 }
 
-/*9. Realizar una función que determine si un arreglo es capicúa.  */
+/*9. Realizar una funciÃ³n que determine si un arreglo es capicÃºa.  */
 int esCapicua (int arre[], int validos)
 {
     int flag=0;
@@ -331,14 +331,14 @@ int esCapicua (int arre[], int validos)
     return flag;
 }
 
-/*10. Realizar una función que invierta los elementos de un arreglo.  (sin utilizar un arreglo auxiliar) */
+/*10. Realizar una funciÃ³n que invierta los elementos de un arreglo.  (sin utilizar un arreglo auxiliar) */
 
 void invertirDatos(int arre[], int validos)
 {
     int ultimo = validos-1;
     int i=0;
     int dato;
-    int tope = validos/2; //basta con intercambiar las primeras posiciones con las últimas;
+    int tope = validos/2; //basta con intercambiar las primeras posiciones con las Ãºltimas;
                         //por lo tanto, solo necesitas hacer cambios hasta la mitad del arreglo.
 
     while(i<tope)
@@ -454,9 +454,9 @@ void ordenarInsercionconWhile (int arreglo[], int validos)
     }
 }
 
-/*12. Dados dos arreglos ordenados alfabéticamente, crear un tercer arreglo con los elementos de
-los dos primeros intercalados, de manera que quede un arreglo también ordenado
-alfabéticamente.  */
+/*12. Dados dos arreglos ordenados alfabÃ©ticamente, crear un tercer arreglo con los elementos de
+los dos primeros intercalados, de manera que quede un arreglo tambiÃ©n ordenado
+alfabÃ©ticamente.  */
 
 int tercerArreglo(char ordenado1[], char ordenado2[], char aCopiar[], int validos1, int validos2, int dim)
 {
@@ -499,7 +499,7 @@ int tercerArreglo(char ordenado1[], char ordenado2[], char aCopiar[], int valido
 }
 
 /*13. Dado el vector {1,5,6,7,8} escribir un programa que genere otro vector con la suma del
-contenido de todo los elementos anteriores al índice actual: {1,6,12,19,27}.*/
+contenido de todo los elementos anteriores al Ã­ndice actual: {1,6,12,19,27}.*/
 
 int generarSumaVector (int arre[], int suma[], int validos, int dim)
 {
